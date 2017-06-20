@@ -30,7 +30,7 @@ def merge_sort(res_arr):
         return merge(left, right)
 
 if __name__ == '__main__':
-    test_arr = [0, 2, 5, 6, 7, -1]
+    test_arr = [0, 2, 6, 5, 7, -1]
     print merge_sort(test_arr)
     print test_arr[0:]
     print test_arr[:0]
